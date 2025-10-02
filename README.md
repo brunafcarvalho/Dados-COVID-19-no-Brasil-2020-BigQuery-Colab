@@ -46,9 +46,9 @@ Qual foi a letalidade (CFR) por estado em 2020? (óbitos_2020 / casos_2020)
 
 No mês de pico nacional em 2020, quais estados mais contribuíram? (composição do pico)
 
-## Resultados & Conclusões (2020)
+## Resultados & Conclusões 
 
-- **Pico nacional:** **2020-12**, com **1.340.095** casos.
+- **Pico nacional:** **12-2020**, com **1.340.095** casos.
 - **Top estados do ano:** **São Paulo (1.465.311)**, **Minas Gerais (544.629)**, **Bahia (494.223)** — **32,6%** do total.
 - **CFR (óbitos/casos):** **Rio de Janeiro (5,86%)**, **Pernambuco (4,34%)**.
 - **Mês de pico (2020-12):** os 2 estados com mais casos somaram **26,6%** do total.
