@@ -2,7 +2,7 @@
 Análise exploratória dos casos e óbitos de COVID-19 no Brasil, focada em 2020 e nível UF (estados), usando Google BigQuery (dataset público) e Python no Google Colab.
 Objetivo: praticar extração via SQL com pandas-gbq, tratamento/EDA em pandas e responder a 4 perguntas de negócio com agrupamentos e visualizações.
 
-Dataset
+## Dataset
 
 Origem: Google Cloud Public Datasets
 
@@ -18,7 +18,7 @@ Período analisado: 2020-01-01 a 2020-12-31
 
 Observação: quando new_confirmed/new_deceased faltam, calculamos diários como diferença dos acumulados, truncando negativos (revisões).
 
-Requisitos / Como reproduzir
+## Requisitos / Como reproduzir
 
 Google Colab (recomendado)
 
@@ -36,7 +36,7 @@ PROJECT_ID = "seu-project-id"
 
 TABLE = "bigquery-public-data.covid19_open_data.covid19_open_data"
 
-Perguntas de negócio
+## Perguntas de negócio
 
 Quais estados tiveram mais casos em 2020? (ranking por UF)
 
@@ -46,7 +46,7 @@ Qual foi a letalidade (CFR) por estado em 2020? (óbitos_2020 / casos_2020)
 
 No mês de pico nacional em 2020, quais estados mais contribuíram? (composição do pico)
 
-Metodologia (resumo)
+## Metodologia
 
 Extração: pandas_gbq.read_gbq() com SQL padrão; filtragem por país/UF/ano.
 
