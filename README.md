@@ -61,3 +61,13 @@ Análises: groupby/agg, agregação mensal para tendência nacional, ranking por
 Visualizações: matplotlib (linhas/barras).
 
 START = "2020-01-01", END = "2020-12-31"
+
+## Fonte
+
+BigQuery — Google Cloud Public Datasets: bigquery-public-data.covid19_open_data.covid19_open_data
+
+Licenças/termos conforme a página oficial do dataset no Google Cloud.
+
+## Notas
+
+Este projeto é parte do exercício final do curso EBAC – Análise de Dados (prática com BigQuery + Colab).
